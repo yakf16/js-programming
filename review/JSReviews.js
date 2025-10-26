@@ -26,7 +26,7 @@ if(browser === "chrome"){
 }else if(browser === "firefox"){
     console.log("Mozilla Firefox is Selected!");
 }else{
-    console.log("Invalid Browser Name!");
+    throw new Error("Invalid Browser Name!");
 }
 
 console.log("------------------------");
