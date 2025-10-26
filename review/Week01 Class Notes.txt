@@ -99,3 +99,26 @@ test{
     logInPage.clickLogInBttn();
 }
 
+
+------------------------------
+
+class BasePage{
+    page
+
+    contrsuctor(page){
+        this.page = page;
+    }
+
+    locate()
+
+    ....
+}
+
+class LogInPage extends BasePage{
+
+}
+
+
+class HomePage extends BasePage {
+
+}

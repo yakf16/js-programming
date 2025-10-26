@@ -8,6 +8,7 @@ class Person{
     eat(){
         console.log(`${this.name} is eating.`);
     }
+
 }
 
 class Student extends Person{
