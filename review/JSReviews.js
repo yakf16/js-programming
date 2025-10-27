@@ -164,5 +164,6 @@ function countDistinctSubstrings(str) {
 console.log(countDistinctSubstrings("gffg")); // Output: 6
 console.log(countDistinctSubstrings("gfg"));  // Output: 5
 console.log(countDistinctSubstrings("abc"));  // Output: 6
+///
 
 
